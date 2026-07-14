@@ -175,6 +175,7 @@ Puedes generar un instalador para tu aplicación con Inno Setup siguiendo estos 
 
 ## Lo que aprendí con este proyecto
 
+- Creción de proyectos de aplicaciones de escritorio Java con Maven.
 - Comunicación serial con Java.
 - Integración de interfaces gráficas con JavaFX.
 - Lectura y exportación de datos a Excel.
