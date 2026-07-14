@@ -29,7 +29,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="637.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ingecode.controladores.VentanaPrincipalController">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="637.0" prefWidth="760.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ingecode.controladores.VentanaPrincipalController">
    <top>
       <VBox BorderPane.alignment="CENTER">
          <children>
