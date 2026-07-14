@@ -21,6 +21,7 @@ public class VentanaPrincipal extends Application {
         
 		try {
 			Parent root = FXMLLoader.load(getClass().getResource("/vistas/VentanaPrincipal.fxml"));
+			//Parent root = FXMLLoader.load(getClass().getResource("/resources/vistas/VentanaPrincipal.fxml"));
 			//Parent root = FXMLLoader.load(getClass().getResource("src/main/java/com/ingecode/vistas/VentanaPrincipal.fxml"));
 			
 			Scene scene = new Scene(root, ancho/2, alto/2);

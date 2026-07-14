@@ -1,6 +1,0 @@
-{
-  "rutas": {
-    "rutaPredefinida": "C:\Users\RODRIGO\Desktop\",
-    "nuevaRuta": ""
-  }
-}
