@@ -34,13 +34,13 @@ src/
 
 - Java JDK 11 o superior
 - Maven 3.8 o superior
+- Microsoft Office (opcional)
 
 ## Dependencias principales
 
 - JavaFX 11.0.2: interfaz gráfica
 - jSerialComm 2.10.4: comunicación serial
 - Apache POI 5.2.5: exportación a Excel
-- Log4j2 2.23.1: registro y logging
 
 ## Ejecutar el proyecto
 
@@ -62,7 +62,7 @@ Para forzar la actualización de dependencias:
 mvn clean javafx:run -U
 ```
 
-## Generar un JAR ejecutable
+## Generar un JAR ejecutable con Maven
 
 ```bash
 mvn clean package
@@ -80,7 +80,7 @@ TestingPortCom-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 java -jar target/TestingPortCom-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 ```
 
-## Exportar un JAR desde Eclipse
+## Generar un JAR desde Eclipse
 
 1. Haz clic derecho sobre el proyecto.
 2. Selecciona `Export`.
@@ -90,7 +90,7 @@ java -jar target/TestingPortCom-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 6. En `Library handling`, selecciona `Package required libraries into generated JAR`.
 7. Haz clic en `Finish`.
 
-### Ejecutar el JAR exportado por Eclipse
+### Ejecutar el JAR generado por Eclipse
 
 ```bash
 java -jar TestingPortCOM.jar
